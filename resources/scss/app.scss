@@ -1,0 +1,19 @@
+// Local font
+@import "./inter.css";
+
+// Local fontawesome
+$fa-font-path: "/webfonts";
+@import "fontawesome/fontawesome";
+@import "fontawesome/solid";
+@import "fontawesome/regular";
+@import "fontawesome/light";
+@import "fontawesome/duotone";
+
+// Plugins
+@import "variables";
+@import "custom";
+@import "~bootstrap/scss/bootstrap";
+
+html {
+    font-size: 14px;
+  }

@@ -1,0 +1,26 @@
+body {
+    font-family: 'Inter var', sans-serif !important;
+    background-color: #f8f9fa !important;
+}
+
+.hero {
+    text-align: center;
+    letter-spacing: -0.025em;
+}
+
+.hero-medium {
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 44px;
+    text-align: center;
+    letter-spacing: -0.025em;
+}
+
+.editable {
+    outline: none !important;
+}
+
+.editable[contenteditable]:focus,
+.editable[contenteditable]:hover {
+    background: #e7eaec;
+}
